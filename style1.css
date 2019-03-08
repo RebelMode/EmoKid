@@ -2,19 +2,21 @@
 
 /* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
 body {
+  background-image:url("map-bg.jpg");
   width: 900px;
   margin: 10px auto;
 }
 
 nav {
-  font-family: sans-serif;
+  font-family: fantasy;20px
   font-size: 10px;
 }
 
 /* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
-
+font-family:Supermercado One';45px 
+color:red
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
-main {
+main { column-rule:5px dashed #0c0701;
   columns: 400px 2;
   column-gap: 100px;
 }
@@ -31,21 +33,22 @@ h2 {
 /* Make the name of each menu item appear in bold in a 20px size. */
 
 dd {
-  margin: 0 0 12px 0;
-  display: flex;
+  margin: 0 0 60px 0;
+  display: inherit;
 }
 
 .details {
-  order: 1;
-}
+  order: 5;
+}0
 
 /* Show the price of each item in a large font, in the color named 'firebrick' */
 .price {
   order: 2;
-  padding-left: 10px;
+  padding-left: 50px;
+} color:firebrick
+
+/* Draw a 2px dashed red border around the address/footer */
+address {
+  padding: 20px;
 }
 
-/* Draw a 2px dashed rosybrown border around the address/footer */
-address {
-  padding: 10px;
-}
